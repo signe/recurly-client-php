@@ -1,10 +1,10 @@
 {
-    "name": "recurly/recurly-client",
+    "name": "signe/recurly-client",
     "version": "4.57.0",
     "type": "library",
     "description": "The PHP client library for the Recurly API",
     "keywords": ["recurly", "payments", "pay"],
-    "homepage": "https://github.com/recurly/recurly-client-php",
+    "homepage": "https://github.com/signe/recurly-client-php",
     "license": "MIT",
     "authors": [],
     "require": {
@@ -34,5 +34,10 @@
             "symfony/flex": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
+    },
+    "extra": {
+	"branch-alias": {
+	    "dev-adopted": "4.57.0"
+	}
     }
 }
